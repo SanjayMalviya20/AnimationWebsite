@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hello{
+color: aqua;
+animation-name: identifier ;
+margin-right: 7px;
+animation-duration: 8s;
+animation-fill-mode: forwards;
+animation-timing-function: ease;
+animation-iteration-count: infinite;
+}
+
+/* @keyframes identifier {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform:  translateX(-2000px);
+    }
+} */
+
+@media (max-width:600px) {
+    
+#text{
+    color: aqua;
+    font-size:36px;
+    overflow: hidden;
+    width: 288px;
+    line-height: 1;
+
+
+}
+.greenbox{
+    width: 100%;
+    height: 42vh;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.landing{
+    padding-left: 2rem;
+}
+#img{
+    width: 60px;
+}
+#motion{
+        height: 4.4vh;
+}
+.aboutus{
+    flex-direction: column;
+}
+#divbox{
+    padding-left: 0;
+    padding-right: 0;
+    flex-direction: column;
+}
+#h1{
+transform: translateX(9px);
+}
+.cards{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardcon{
+height: 36vh;
+width: 62%;
+}
+.h1{
+    font-size: 20px;
+}
+#cardsection{
+    flex-direction: column;
+}
+#firstcard>h1{
+font-size: 2rem;
+align-items: center;
+justify-content: center;
+}
+#firstcard{
+width: 100%;
+align-items: center;
+justify-content: center;
+}
+.sceondcard>h1{
+font-size: 1rem;
+
+}
+.sceondcard{
+align-items: baseline;
+width: 100%;
+
+}
+.con{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.cardscon{
+    width: 100%;
+}
+}
